@@ -1,9 +1,17 @@
+:root
+{
+  --bg-color: #222629;
+  --secondary-color: #86C232;
+}
+
+
 body
 {
-  background-color: #222629;
+  background-color: var(--bg-color);
   font-family: 'Apercu', Arial;
 
   height: 3000px;
+  padding-top: 150px;
 
 }
 

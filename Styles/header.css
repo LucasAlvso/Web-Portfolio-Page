@@ -4,12 +4,13 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: #222629;
 
-  padding: 0% 8% 0% 8%;
+  padding: 0% 18% 0% 8%;
 
   font-weight: 50px;
 
-  color: #86C232;
+  color: var(--secondary-color);
 
   height: 90px;
 
@@ -52,7 +53,7 @@
 {
   background: 0;
   border: 0;
-  color: #86C232;
+  color: var(--secondary-color);
   font-family: 'Apercu', Arial;
   font-size: 16px;
 
@@ -63,6 +64,6 @@
 
 .header-button:hover
 {
-  color: white;
+  color: var(--secondary-color);
   transform: translateY(-3px);
 }
