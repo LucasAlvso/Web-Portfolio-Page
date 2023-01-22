@@ -64,6 +64,6 @@
 
 .header-button:hover
 {
-  color: var(--secondary-color);
+  color: chartreuse;
   transform: translateY(-3px);
 }

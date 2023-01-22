@@ -1,5 +1,31 @@
 #home-content
 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
     height: 700px;
+    border: 3px solid var(--secondary-color);
+}
+
+#home-text-container
+{
+    margin-left: 10%;
+    margin-right: 30%;
+}
+
+#home-blob-image-container
+{
+    height: 30%;
+    width: 30%;
     background-color: var(--secondary-color);
+
+    border-radius: 33% 60% 62% 33% / 14% 15% 66% 78%;
+
+    margin-right: 10%;
+
+    box-shadow: 5px 5px 5px rgba(var(--secondary-color), 0.8);
+    
 }
