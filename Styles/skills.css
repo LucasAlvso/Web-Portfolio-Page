@@ -10,20 +10,3 @@
   justify-content: top;
   align-items: center;
 }
-
-#skills-description-container
-{
-  height: 40%;
-  width: 100%;
-  border: 3px solid green;
-}
-
-#skills-grid-container
-{
-  height: 60%;
-  width: 100%;
-  border: 3px solid green;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
