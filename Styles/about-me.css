@@ -1,0 +1,24 @@
+#about-me-content
+{
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+
+  border: 3px solid green;
+
+  height: 500px;
+  width: 100%;
+}
+
+#about-me-title
+{
+  font-size: 60px;
+  font-weight: 600;
+
+  margin: 0;
+  padding: 0;
+
+  display: block;
+}
