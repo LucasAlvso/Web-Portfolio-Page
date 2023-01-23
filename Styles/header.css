@@ -23,6 +23,19 @@
 
 }
 
+#header-name
+{
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+#header-name:hover
+{
+  color: white;
+  transform: translateY(-3px);
+}
+
+
 .header div
 {
   height: 50px;
