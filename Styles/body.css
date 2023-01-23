@@ -2,6 +2,7 @@
 {
   --bg-color: #222629;
   --secondary-color: #86C232;
+  --transition-color: white;
 }
 
 ::-webkit-scrollbar
