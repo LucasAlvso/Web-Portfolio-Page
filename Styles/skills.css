@@ -1,6 +1,6 @@
 #skills-content
 {
-  height: 700px;
+  height: 600px;
   width: 100%;
 
 
@@ -10,11 +10,14 @@
   align-items: center;
 
   text-align: center;
+
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 #skills-title
 {
-  height: 20%;
+  height: 5%;
   font-size: 60px;
   font-weight: 600;
 
@@ -23,7 +26,7 @@
 
 #skill-cards-container
 {
-  height: 80%;
+  height: 95%;
   width: 100%;
 
   align-self: baseline;
