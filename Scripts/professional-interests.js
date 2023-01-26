@@ -18,7 +18,6 @@ selectables.forEach(function(selectable) {
         textBoxes.forEach(function(textbox) {
             textbox.style.display = "none";
         });
-
         // Show the selected textbox
         selectedTextBox.style.display = "block";
     });

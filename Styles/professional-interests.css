@@ -16,18 +16,25 @@
 
 #professional-interests-title-container
 {
-  height: 20%;
+  height: 32%;
 
   font-size: 60px;
   font-weight: 600;
+  margin-bottom: 0%;
+
 }
 
 #information-section
 {
   height: 70%;
-  width: 60%;
+  width: 50%;
   font-size: 20px;
 
+  min-height: 70%;
+  max-height: 70%;
+  min-width: 50%;
+  max-width: 50%;
+  
   padding: 0;
 
   flex-wrap: nowrap;
@@ -35,6 +42,18 @@
   margin-bottom: 4%;
   margin-top: 4%;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#placeholder-description
+{
+  z-index: 10;
+  
+  display: inline;
 }
 
 .interest-description-title
@@ -65,7 +84,7 @@
 
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
   justify-content: center;
   column-gap: 5%;
 }
