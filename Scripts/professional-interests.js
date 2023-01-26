@@ -23,8 +23,6 @@ selectables.forEach(function(selectable) {
     });
 });
 
-
-
 selectables.forEach(button => {
     button.addEventListener('click', toggleButton);
   });
